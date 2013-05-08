@@ -1,0 +1,1410 @@
+callback([
+    {
+        "city": "Longxi",
+        "pv": 7557
+    },
+    {
+        "city": "Pingliang",
+        "pv": 5867
+    },
+    {
+        "city": "Anxi",
+        "pv": 6031
+    },
+    {
+        "city": "Minxian",
+        "pv": 6643
+    },
+    {
+        "city": "Jinchang",
+        "pv": 6131
+    },
+    {
+        "city": "Guide",
+        "pv": 367
+    },
+    {
+        "city": "Qinzhou",
+        "pv": 3697
+    },
+    {
+        "city": "Pingxiang",
+        "pv": 7560
+    },
+    {
+        "city": "Yishan",
+        "pv": 8900
+    },
+    {
+        "city": "Beihai",
+        "pv": 5831
+    },
+    {
+        "city": "Hechi",
+        "pv": 7684
+    },
+    {
+        "city": "Tongren",
+        "pv": 8424
+    },
+    {
+        "city": "Fengjie",
+        "pv": 4927
+    },
+    {
+        "city": "Changping",
+        "pv": 5797
+    },
+    {
+        "city": "Shaowu",
+        "pv": 8526
+    },
+    {
+        "city": "Longyan",
+        "pv": 6247
+    },
+    {
+        "city": "Zhangzhou",
+        "pv": 5771
+    },
+    {
+        "city": "Putian",
+        "pv": 3499
+    },
+    {
+        "city": "Fuan",
+        "pv": 389
+    },
+    {
+        "city": "Changting",
+        "pv": 983
+    },
+    {
+        "city": "Nanping",
+        "pv": 9368
+    },
+    {
+        "city": "Ninde",
+        "pv": 6222
+    },
+    {
+        "city": "Jieshou",
+        "pv": 2676
+    },
+    {
+        "city": "Tongling",
+        "pv": 6574
+    },
+    {
+        "city": "Maanshan",
+        "pv": 2820
+    },
+    {
+        "city": "Fuyang",
+        "pv": 9225
+    },
+    {
+        "city": "Yangjiang",
+        "pv": 2520
+    },
+    {
+        "city": "Meizhou",
+        "pv": 6437
+    },
+    {
+        "city": "Heyuan",
+        "pv": 3818
+    },
+    {
+        "city": "Qingyuan",
+        "pv": 781
+    },
+    {
+        "city": "Zhaoqing",
+        "pv": 2422
+    },
+    {
+        "city": "Lianxian",
+        "pv": 4201
+    },
+    {
+        "city": "Jiangmen",
+        "pv": 3020
+    },
+    {
+        "city": "Maoming",
+        "pv": 6974
+    },
+    {
+        "city": "Gar",
+        "pv": 5313
+    },
+    {
+        "city": "Turpan",
+        "pv": 5501
+    },
+    {
+        "city": "Quiemo",
+        "pv": 5965
+    },
+    {
+        "city": "Koktokay",
+        "pv": 4810
+    },
+    {
+        "city": "Hancheng",
+        "pv": 3503
+    },
+    {
+        "city": "Weinan",
+        "pv": 6100
+    },
+    {
+        "city": "Shuozhou",
+        "pv": 2541
+    },
+    {
+        "city": "Xinzhou",
+        "pv": 5222
+    },
+    {
+        "city": "Jincheng",
+        "pv": 5263
+    },
+    {
+        "city": "Jiexiu",
+        "pv": 1167
+    },
+    {
+        "city": "Changzhi",
+        "pv": 5675
+    },
+    {
+        "city": "Guangshui",
+        "pv": 7128
+    },
+    {
+        "city": "Jingmen",
+        "pv": 6356
+    },
+    {
+        "city": "Zicheng",
+        "pv": 822
+    },
+    {
+        "city": "Shishou",
+        "pv": 2013
+    },
+    {
+        "city": "Xiaogan",
+        "pv": 9642
+    },
+    {
+        "city": "Puqi",
+        "pv": 8824
+    },
+    {
+        "city": "Yunxian",
+        "pv": 416
+    },
+    {
+        "city": "Jinshi",
+        "pv": 2261
+    },
+    {
+        "city": "Chenzhou",
+        "pv": 5081
+    },
+    {
+        "city": "Zhijiang",
+        "pv": 2338
+    },
+    {
+        "city": "Xiangtan",
+        "pv": 19
+    },
+    {
+        "city": "Zigong",
+        "pv": 3364
+    },
+    {
+        "city": "Yaan",
+        "pv": 8406
+    },
+    {
+        "city": "Langzhong",
+        "pv": 6104
+    },
+    {
+        "city": "Rongzhag",
+        "pv": 7341
+    },
+    {
+        "city": "Simao",
+        "pv": 1887
+    },
+    {
+        "city": "Wenshan",
+        "pv": 8616
+    },
+    {
+        "city": "Zhanyi",
+        "pv": 5096
+    },
+    {
+        "city": "Huize",
+        "pv": 8751
+    },
+    {
+        "city": "Chengde",
+        "pv": 8462
+    },
+    {
+        "city": "Cangzhou",
+        "pv": 4375
+    },
+    {
+        "city": "Baoding",
+        "pv": 5629
+    },
+    {
+        "city": "Huanghua",
+        "pv": 6671
+    },
+    {
+        "city": "Dingzhou",
+        "pv": 2540
+    },
+    {
+        "city": "Nangong",
+        "pv": 2378
+    },
+    {
+        "city": "Linqing",
+        "pv": 5164
+    },
+    {
+        "city": "Xiangtai",
+        "pv": 5687
+    },
+    {
+        "city": "Puyang",
+        "pv": 8969
+    },
+    {
+        "city": "Hebi",
+        "pv": 7443
+    },
+    {
+        "city": "Xuchang",
+        "pv": 7079
+    },
+    {
+        "city": "Zhoukou",
+        "pv": 431
+    },
+    {
+        "city": "Dengzhou",
+        "pv": 8747
+    },
+    {
+        "city": "Tieling",
+        "pv": 8152
+    },
+    {
+        "city": "Chaoyang",
+        "pv": 3553
+    },
+    {
+        "city": "Huanren",
+        "pv": 9028
+    },
+    {
+        "city": "Zhuanghe",
+        "pv": 6835
+    },
+    {
+        "city": "Yishui",
+        "pv": 6206
+    },
+    {
+        "city": "Shanxian",
+        "pv": 7355
+    },
+    {
+        "city": "Pingyi",
+        "pv": 8433
+    },
+    {
+        "city": "Pingdu",
+        "pv": 2129
+    },
+    {
+        "city": "Laiwu",
+        "pv": 8037
+    },
+    {
+        "city": "Buizhou",
+        "pv": 4255
+    },
+    {
+        "city": "Liaocheng",
+        "pv": 469
+    },
+    {
+        "city": "Rizhao",
+        "pv": 7808
+    },
+    {
+        "city": "Dezhou",
+        "pv": 281
+    },
+    {
+        "city": "Linchuan",
+        "pv": 4386
+    },
+    {
+        "city": "Fengcheng",
+        "pv": 2706
+    },
+    {
+        "city": "Jian",
+        "pv": 6498
+    },
+    {
+        "city": "Shangrao",
+        "pv": 801
+    },
+    {
+        "city": "Jingdezhen",
+        "pv": 8670
+    },
+    {
+        "city": "Taizhou",
+        "pv": 7648
+    },
+    {
+        "city": "Shuyang",
+        "pv": 7009
+    },
+    {
+        "city": "Lianyungang",
+        "pv": 5807
+    },
+    {
+        "city": "Lishui",
+        "pv": 3130
+    },
+    {
+        "city": "Jiaojing",
+        "pv": 4256
+    },
+    {
+        "city": "Quzhou",
+        "pv": 9316
+    },
+    {
+        "city": "Fuyu",
+        "pv": 528
+    },
+    {
+        "city": "Dunhua",
+        "pv": 9902
+    },
+    {
+        "city": "Nongan",
+        "pv": 5842
+    },
+    {
+        "city": "Taonan",
+        "pv": 352
+    },
+    {
+        "city": "Liuhe",
+        "pv": 1066
+    },
+    {
+        "city": "Huinan",
+        "pv": 5944
+    },
+    {
+        "city": "Panshi",
+        "pv": 6705
+    },
+    {
+        "city": "Jiaohe",
+        "pv": 3011
+    },
+    {
+        "city": "Linjiang",
+        "pv": 1075
+    },
+    {
+        "city": "Wangqing",
+        "pv": 5615
+    },
+    {
+        "city": "Helong",
+        "pv": 3174
+    },
+    {
+        "city": "Shulan",
+        "pv": 3489
+    },
+    {
+        "city": "Jiutai",
+        "pv": 7973
+    },
+    {
+        "city": "Alxa Zuoqi",
+        "pv": 5665
+    },
+    {
+        "city": "Linxi",
+        "pv": 4064
+    },
+    {
+        "city": "Kailu",
+        "pv": 5448
+    },
+    {
+        "city": "Bairin Zuoqi",
+        "pv": 6007
+    },
+    {
+        "city": "Yitulihe",
+        "pv": 5984
+    },
+    {
+        "city": "Yakeshi",
+        "pv": 9298
+    },
+    {
+        "city": "Bugt",
+        "pv": 8727
+    },
+    {
+        "city": "Wuyuan",
+        "pv": 6304
+    },
+    {
+        "city": "Bayan Obo",
+        "pv": 7931
+    },
+    {
+        "city": "Fengzhen",
+        "pv": 6199
+    },
+    {
+        "city": "Suihua",
+        "pv": 2887
+    },
+    {
+        "city": "Shuangyashan",
+        "pv": 9913
+    },
+    {
+        "city": "Shangzhi",
+        "pv": 5403
+    },
+    {
+        "city": "Fujin",
+        "pv": 5805
+    },
+    {
+        "city": "Yian",
+        "pv": 8071
+    },
+    {
+        "city": "Tailai",
+        "pv": 6842
+    },
+    {
+        "city": "Longjiang",
+        "pv": 6048
+    },
+    {
+        "city": "Gannan",
+        "pv": 2227
+    },
+    {
+        "city": "Hailun",
+        "pv": 5331
+    },
+    {
+        "city": "Mishan",
+        "pv": 642
+    },
+    {
+        "city": "Tieli",
+        "pv": 3456
+    },
+    {
+        "city": "Shuangcheng",
+        "pv": 5008
+    },
+    {
+        "city": "Zhaodong",
+        "pv": 831
+    },
+    {
+        "city": "Lanxi",
+        "pv": 1720
+    },
+    {
+        "city": "Keshan",
+        "pv": 7862
+    },
+    {
+        "city": "Nancha",
+        "pv": 1152
+    },
+    {
+        "city": "Xinqing",
+        "pv": 9211
+    },
+    {
+        "city": "Hulin",
+        "pv": 9960
+    },
+    {
+        "city": "Boli",
+        "pv": 8035
+    },
+    {
+        "city": "Ningan",
+        "pv": 5553
+    },
+    {
+        "city": "Jyekundo",
+        "pv": 8908
+    },
+    {
+        "city": "Liuzhou",
+        "pv": 7231
+    },
+    {
+        "city": "Xingyi",
+        "pv": 9319
+    },
+    {
+        "city": "Anshun",
+        "pv": 2699
+    },
+    {
+        "city": "Zunyi",
+        "pv": 3582
+    },
+    {
+        "city": "Wanzhou",
+        "pv": 2152
+    },
+    {
+        "city": "Huaibei",
+        "pv": 1435
+    },
+    {
+        "city": "Wuhu",
+        "pv": 953
+    },
+    {
+        "city": "Luan",
+        "pv": 1073
+    },
+    {
+        "city": "Bengbu",
+        "pv": 4130
+    },
+    {
+        "city": "Anqing",
+        "pv": 2869
+    },
+    {
+        "city": "Foshan",
+        "pv": 4506
+    },
+    {
+        "city": "Nagchu",
+        "pv": 2651
+    },
+    {
+        "city": "Nyingchi",
+        "pv": 4401
+    },
+    {
+        "city": "Chamdo",
+        "pv": 4524
+    },
+    {
+        "city": "Korla",
+        "pv": 7452
+    },
+    {
+        "city": "Kuqa",
+        "pv": 345
+    },
+    {
+        "city": "Tacheng",
+        "pv": 4650
+    },
+    {
+        "city": "Shihezi",
+        "pv": 4983
+    },
+    {
+        "city": "Karamay",
+        "pv": 2908
+    },
+    {
+        "city": "Aksu",
+        "pv": 3654
+    },
+    {
+        "city": "Sanya",
+        "pv": 5470
+    },
+    {
+        "city": "Haikou",
+        "pv": 7855
+    },
+    {
+        "city": "Hanzhong",
+        "pv": 1150
+    },
+    {
+        "city": "Baoji",
+        "pv": 2720
+    },
+    {
+        "city": "Tongchuan",
+        "pv": 8628
+    },
+    {
+        "city": "Linfen",
+        "pv": 9085
+    },
+    {
+        "city": "Yuci",
+        "pv": 9415
+    },
+    {
+        "city": "Datong",
+        "pv": 8171
+    },
+    {
+        "city": "Jianmen",
+        "pv": 8328
+    },
+    {
+        "city": "Yichang",
+        "pv": 6381
+    },
+    {
+        "city": "Xiantao",
+        "pv": 5880
+    },
+    {
+        "city": "Macheng",
+        "pv": 2006
+    },
+    {
+        "city": "Huangshi",
+        "pv": 7673
+    },
+    {
+        "city": "Zhuzhou",
+        "pv": 7301
+    },
+    {
+        "city": "Yongzhou",
+        "pv": 3656
+    },
+    {
+        "city": "Yiyang",
+        "pv": 1548
+    },
+    {
+        "city": "Changde",
+        "pv": 6063
+    },
+    {
+        "city": "Shaoyang",
+        "pv": 728
+    },
+    {
+        "city": "Leshan",
+        "pv": 9497
+    },
+    {
+        "city": "Panzhihua",
+        "pv": 7548
+    },
+    {
+        "city": "Fulin",
+        "pv": 246
+    },
+    {
+        "city": "Guangyuan",
+        "pv": 8139
+    },
+    {
+        "city": "Luzhou",
+        "pv": 697
+    },
+    {
+        "city": "Yibin",
+        "pv": 4064
+    },
+    {
+        "city": "Zhaotang",
+        "pv": 1274
+    },
+    {
+        "city": "Lijiang",
+        "pv": 8501
+    },
+    {
+        "city": "Yuxi",
+        "pv": 4685
+    },
+    {
+        "city": "Dali",
+        "pv": 3431
+    },
+    {
+        "city": "Qinhuangdao",
+        "pv": 7926
+    },
+    {
+        "city": "Langfang",
+        "pv": 6415
+    },
+    {
+        "city": "Zhangjiakou",
+        "pv": 93
+    },
+    {
+        "city": "Tangshan",
+        "pv": 7735
+    },
+    {
+        "city": "Anyang",
+        "pv": 3216
+    },
+    {
+        "city": "Jiaozuo",
+        "pv": 6663
+    },
+    {
+        "city": "Kaifeng",
+        "pv": 8514
+    },
+    {
+        "city": "Shangqiu",
+        "pv": 4582
+    },
+    {
+        "city": "Pingdingshan",
+        "pv": 8585
+    },
+    {
+        "city": "Xinyang",
+        "pv": 9595
+    },
+    {
+        "city": "Xinxiang",
+        "pv": 7241
+    },
+    {
+        "city": "Luoyang",
+        "pv": 3534
+    },
+    {
+        "city": "Liaoyang",
+        "pv": 2791
+    },
+    {
+        "city": "Dandong",
+        "pv": 6065
+    },
+    {
+        "city": "Yingkow",
+        "pv": 4077
+    },
+    {
+        "city": "Jinzhou",
+        "pv": 227
+    },
+    {
+        "city": "Fuxin",
+        "pv": 6309
+    },
+    {
+        "city": "Benxi",
+        "pv": 4544
+    },
+    {
+        "city": "Fushun",
+        "pv": 1608
+    },
+    {
+        "city": "Jining",
+        "pv": 9301
+    },
+    {
+        "city": "Weifang",
+        "pv": 724
+    },
+    {
+        "city": "Taian",
+        "pv": 4635
+    },
+    {
+        "city": "Heze",
+        "pv": 6024
+    },
+    {
+        "city": "Laiyang",
+        "pv": 7585
+    },
+    {
+        "city": "Xinyu",
+        "pv": 7061
+    },
+    {
+        "city": "Ganzhou",
+        "pv": 6579
+    },
+    {
+        "city": "Jiujiang",
+        "pv": 3267
+    },
+    {
+        "city": "Changzhou",
+        "pv": 2733
+    },
+    {
+        "city": "Zhenjiang",
+        "pv": 7157
+    },
+    {
+        "city": "Nantong",
+        "pv": 4605
+    },
+    {
+        "city": "Jiaxing",
+        "pv": 170
+    },
+    {
+        "city": "Huzhou",
+        "pv": 7623
+    },
+    {
+        "city": "Shaoxing",
+        "pv": 3882
+    },
+    {
+        "city": "Jinhua",
+        "pv": 7293
+    },
+    {
+        "city": "Liaoyuan",
+        "pv": 8549
+    },
+    {
+        "city": "Tumen",
+        "pv": 2111
+    },
+    {
+        "city": "Siping",
+        "pv": 3937
+    },
+    {
+        "city": "Baicheng",
+        "pv": 219
+    },
+    {
+        "city": "Wuhai",
+        "pv": 5008
+    },
+    {
+        "city": "Erenhot",
+        "pv": 1323
+    },
+    {
+        "city": "Jining",
+        "pv": 6122
+    },
+    {
+        "city": "Arxan",
+        "pv": 3225
+    },
+    {
+        "city": "Manzhouli",
+        "pv": 7931
+    },
+    {
+        "city": "Xilinhot",
+        "pv": 5582
+    },
+    {
+        "city": "Heihe",
+        "pv": 2371
+    },
+    {
+        "city": "Qitaihe",
+        "pv": 327
+    },
+    {
+        "city": "Yichun",
+        "pv": 7947
+    },
+    {
+        "city": "Hegang",
+        "pv": 4509
+    },
+    {
+        "city": "Nenjiang",
+        "pv": 9832
+    },
+    {
+        "city": "Nehe",
+        "pv": 2512
+    },
+    {
+        "city": "Mudangiang",
+        "pv": 680
+    },
+    {
+        "city": "Xuanzhou",
+        "pv": 3697
+    },
+    {
+        "city": "Zhuhai",
+        "pv": 8800
+    },
+    {
+        "city": "Xianyang",
+        "pv": 8914
+    },
+    {
+        "city": "Xiangfan",
+        "pv": 3848
+    },
+    {
+        "city": "Suining",
+        "pv": 8664
+    },
+    {
+        "city": "Lingyuan",
+        "pv": 1150
+    },
+    {
+        "city": "Weihai",
+        "pv": 5037
+    },
+    {
+        "city": "Yichun",
+        "pv": 9257
+    },
+    {
+        "city": "Yancheng",
+        "pv": 3789
+    },
+    {
+        "city": "Fuyang",
+        "pv": 9255
+    },
+    {
+        "city": "Xiamen",
+        "pv": 6255
+    },
+    {
+        "city": "Nanchong",
+        "pv": 8630
+    },
+    {
+        "city": "Neijiang",
+        "pv": 1894
+    },
+    {
+        "city": "Nanyang",
+        "pv": 9084
+    },
+    {
+        "city": "Jinxi",
+        "pv": 9174
+    },
+    {
+        "city": "Yantai",
+        "pv": 1145
+    },
+    {
+        "city": "Zaozhuang",
+        "pv": 2014
+    },
+    {
+        "city": "Suzhou",
+        "pv": 9250
+    },
+    {
+        "city": "Xuzhou",
+        "pv": 263
+    },
+    {
+        "city": "Wuxi",
+        "pv": 3685
+    },
+    {
+        "city": "Jilin",
+        "pv": 8654
+    },
+    {
+        "city": "Zhangye",
+        "pv": 4749
+    },
+    {
+        "city": "Wuwei",
+        "pv": 4078
+    },
+    {
+        "city": "Dunhuang",
+        "pv": 772
+    },
+    {
+        "city": "Tianshui",
+        "pv": 1018
+    },
+    {
+        "city": "Dulan",
+        "pv": 5434
+    },
+    {
+        "city": "Golmud",
+        "pv": 9337
+    },
+    {
+        "city": "Yulin",
+        "pv": 1210
+    },
+    {
+        "city": "Bose",
+        "pv": 8455
+    },
+    {
+        "city": "Wuzhou",
+        "pv": 287
+    },
+    {
+        "city": "Lupanshui",
+        "pv": 4246
+    },
+    {
+        "city": "Quanzhou",
+        "pv": 5196
+    },
+    {
+        "city": "Hefei",
+        "pv": 8950
+    },
+    {
+        "city": "Suzhou",
+        "pv": 2503
+    },
+    {
+        "city": "Zhanjiang",
+        "pv": 6866
+    },
+    {
+        "city": "Shaoguan",
+        "pv": 8764
+    },
+    {
+        "city": "Xigaze",
+        "pv": 5500
+    },
+    {
+        "city": "Shache",
+        "pv": 6713
+    },
+    {
+        "city": "Yining",
+        "pv": 1602
+    },
+    {
+        "city": "Altay",
+        "pv": 6285
+    },
+    {
+        "city": "Shizuishan",
+        "pv": 2294
+    },
+    {
+        "city": "Yulin",
+        "pv": 7798
+    },
+    {
+        "city": "Ankang",
+        "pv": 6767
+    },
+    {
+        "city": "Houma",
+        "pv": 2308
+    },
+    {
+        "city": "Yueyang",
+        "pv": 7935
+    },
+    {
+        "city": "Hengyang",
+        "pv": 9670
+    },
+    {
+        "city": "Mianyang",
+        "pv": 3511
+    },
+    {
+        "city": "Xichang",
+        "pv": 3838
+    },
+    {
+        "city": "Baoshan",
+        "pv": 6619
+    },
+    {
+        "city": "Gejiu",
+        "pv": 7766
+    },
+    {
+        "city": "Shijianzhuang",
+        "pv": 5928
+    },
+    {
+        "city": "Handan",
+        "pv": 1867
+    },
+    {
+        "city": "Anshan",
+        "pv": 3419
+    },
+    {
+        "city": "Dalian",
+        "pv": 9202
+    },
+    {
+        "city": "Qingdao",
+        "pv": 8875
+    },
+    {
+        "city": "Linyi",
+        "pv": 7624
+    },
+    {
+        "city": "Huaiyin",
+        "pv": 9
+    },
+    {
+        "city": "Wenzhou",
+        "pv": 2208
+    },
+    {
+        "city": "Ningbo",
+        "pv": 3481
+    },
+    {
+        "city": "Tongliao",
+        "pv": 9445
+    },
+    {
+        "city": "Hohhot",
+        "pv": 7526
+    },
+    {
+        "city": "Chifeng",
+        "pv": 7787
+    },
+    {
+        "city": "Ulanhot",
+        "pv": 6078
+    },
+    {
+        "city": "Hailar",
+        "pv": 2470
+    },
+    {
+        "city": "Jiamusi",
+        "pv": 3973
+    },
+    {
+        "city": "Beian",
+        "pv": 6011
+    },
+    {
+        "city": "Daqing",
+        "pv": 8067
+    },
+    {
+        "city": "Jixi",
+        "pv": 1135
+    },
+    {
+        "city": "Jiayuguan",
+        "pv": 2561
+    },
+    {
+        "city": "Xining",
+        "pv": 7461
+    },
+    {
+        "city": "Guilin",
+        "pv": 6851
+    },
+    {
+        "city": "Huainan",
+        "pv": 5961
+    },
+    {
+        "city": "Shantou",
+        "pv": 9448
+    },
+    {
+        "city": "Lhasa",
+        "pv": 3286
+    },
+    {
+        "city": "Hami",
+        "pv": 6486
+    },
+    {
+        "city": "Hotan",
+        "pv": 450
+    },
+    {
+        "city": "Kashgar",
+        "pv": 2688
+    },
+    {
+        "city": "Yinchuan",
+        "pv": 7783
+    },
+    {
+        "city": "Pingxiang",
+        "pv": 3173
+    },
+    {
+        "city": "Qiqihar",
+        "pv": 3181
+    },
+    {
+        "city": "Shenzhen",
+        "pv": 8975
+    },
+    {
+        "city": "Zibo",
+        "pv": 5245
+    },
+    {
+        "city": "Lanzhou",
+        "pv": 2049
+    },
+    {
+        "city": "Nanning",
+        "pv": 1232
+    },
+    {
+        "city": "Guiyang",
+        "pv": 6294
+    },
+    {
+        "city": "Chongqing",
+        "pv": 3668
+    },
+    {
+        "city": "Fuzhou",
+        "pv": 3629
+    },
+    {
+        "city": "Guangzhou",
+        "pv": 4444
+    },
+    {
+        "city": "Dongguan",
+        "pv": 7594
+    },
+    {
+        "city": "Xian",
+        "pv": 5067
+    },
+    {
+        "city": "Taiyuan",
+        "pv": 3125
+    },
+    {
+        "city": "Wuhan",
+        "pv": 7159
+    },
+    {
+        "city": "Changsha",
+        "pv": 2596
+    },
+    {
+        "city": "Kunming",
+        "pv": 1374
+    },
+    {
+        "city": "Zhengzhou",
+        "pv": 5782
+    },
+    {
+        "city": "Shenyeng",
+        "pv": 7773
+    },
+    {
+        "city": "Jinan",
+        "pv": 4650
+    },
+    {
+        "city": "Tianjin",
+        "pv": 4722
+    },
+    {
+        "city": "Nanchang",
+        "pv": 8049
+    },
+    {
+        "city": "Nanjing",
+        "pv": 2460
+    },
+    {
+        "city": "Hangzhou",
+        "pv": 1196
+    },
+    {
+        "city": "Changchun",
+        "pv": 3961
+    },
+    {
+        "city": "Baotou",
+        "pv": 3991
+    },
+    {
+        "city": "Harbin",
+        "pv": 5680
+    },
+    {
+        "city": "Urumqi",
+        "pv": 9686
+    },
+    {
+        "city": "Chengdu",
+        "pv": 5192
+    },
+    {
+        "city": "Beijing",
+        "pv": 5425
+    },
+    {
+        "city": "Shanghai",
+        "pv": 2268
+    }
+])
