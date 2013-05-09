@@ -160,7 +160,7 @@
     var paintNewParticlesInterval = null;
 
     
-    d3.json("chn.json", ready);
+    d3.json("remote/chn.json", ready);
 
     function ready(err, chn) {
       console.log(chn);
@@ -173,10 +173,11 @@
 
       drawMap();
 
-      // Start paint;
-      fetchRemote('pv.json', function() {
-        initial ? paintInitialParticles() : paintNewParticles();
-      });
+      paintMeanParticles('initial');
+
+      paintNewParticlesInterval = setInterval(function() {
+        paintMeanParticles();
+      }, 3e4);
 
     }
 
@@ -209,6 +210,18 @@
         .attr('d', path.pointRadius(2));
     }
 
+    function paintMeanParticles() {
+
+      JSONP.get('remote/pv.json', function(pv) {
+        var points;
+
+        meanPoints = processPV2Points(pv);
+
+        initial ? paintInitialParticles() : paintNewParticles();
+        updateParticles();
+      });
+    }
+
     function paintInitialParticles() {
       
       meanPoints.forEach(function(point, index, points) {
@@ -230,108 +243,124 @@
 
       initial = false;
       updatePaused = false;
-      updateParticles();
     }
 
     function paintNewParticles() {
-      meanPoints.forEach(function(dev, index, devs) {
-        var city, counter, len;
+      updatePaused = true;
 
-        city = d3.select('g#' + dev.city);
-        len = dev.points.length
-        counter = 0;
+      setTimeout( affectDOMTree, 0 );
 
-        while (counter < len) {
+      function affectDOMTree() {
+        meanPoints.forEach(function(dev, index, devs) {
+          var city, counter, len;
 
-          dev.negative 
-          ? city.select('circle')
-            .transition()
-            .delay(delayFunction)
-            .attr('r', 1e-6)
-            .remove()
-          : city.append('circle')
-            .attr('class', 'particle')
-            .attr('cx', dev.points[counter][0])
-            .attr('cy', dev.points[counter][0])
+          city = d3.select('g#' + dev.city);
+          len = dev.points.length
+          counter = 0;
+
+          if (dev.negative) {
+            city.selectAll('circle:nth-child(-n+' + len + ')')
+              .attr("data-remove", "true")
+              .transition()
+              .delay( 1000 )
+              .attr('r', 0)
+              .remove();
+          } else {
+            while (counter < len) {
+              city.append('circle')
+                .attr('class', 'particle')
+                .attr('cx', dev.points[counter][0])
+                .attr('cy', dev.points[counter][1])
+                .attr('r', 1e-6)
+                .transition()
+                .delay( delayFunction )
+                .attr('r', radiusFunction);
+
+              counter += 1;
+            }
+          }
+        });
+
+        updatePaused = false;
+      }
+    }
+
+    function updateParticles() {
+
+      return setTimeout(paint, 0);
+
+      function paint() {
+
+        var particlesGroups, particlesGroupsIndex, particlesGroupsLen;
+
+        particlesGroups = document.getElementById('particles');
+        particlesGroupsIndex = 0,
+        particlesGroupsLen = particlesGroups.childNodes.length;
+
+        var rAF;
+        
+        update();
+
+        /*
+        d3.timer(function() {
+
+          __stats.update();
+
+          var group = particlesGroups.childNodes[particlesGroupsIndex];
+          d3.select(group).selectAll('circle')
             .transition()
             .delay(delayFunction)
             .attr('r', radiusFunction);
 
-          counter += 1;
+          particlesGroupsIndex += 1;
+          particlesGroupsIndex = particlesGroupsIndex >= particlesGroupsLen ? 0: particlesGroupsIndex;
+
+          return updatePaused;
+        });
+        */
+
+
+        function update() {
+
+          rAF = requestAnimationFrame( update );
+
+          render();
+          __stats.update();
+
+          //updatePaused && cancelAnimationFrame(rAF);
+          if (updatePaused) {
+            cancelAnimationFrame( rAF );
+            console.log('updatePaused');
+          }
         }
 
-      });
+        function render() {
+
+          var group = particlesGroups.childNodes[particlesGroupsIndex];
+          d3.select(group).selectAll('circle').filter('circle:not([data-remove])')
+            .transition()
+            .delay( delayFunction )
+            .attr('r', radiusFunction);
+
+          particlesGroupsIndex += 1;
+          particlesGroupsIndex = particlesGroupsIndex >= particlesGroupsLen ? 0 : particlesGroupsIndex;
+        }
+      }
     }
 
-    function updateParticles() {
-      // FPS
-      __stats.update();
+    function processPV2Points(pv) {
 
-
-      var index, particlesGroup, particlesGroups;
-      
-      particlesGroups = document.getElementById('particles');
-      index = 0, len = particlesGroups.childNodes.length;
-
-
-      d3.timer(function() {
-
-        __stats.update();
-
-        var group = particlesGroups.childNodes[index];
-        d3.select(group).selectAll('circle')
-          .transition()
-          .delay(delayFunction)
-          .attr('r', radiusFunction);
-
-        index += 1;
-        index = index >= len ? 0: index;
+      return pv.map(function(p, index, pv) {
+        var centroid = citiesCentroids[index];
         
-        return updatePaused;          
+        return {
+          city: p.city,
+          points: d3.range( pvScale(Math.abs(initial ? p.pv : (Math.random() > .5 ? '+' : '-') + Math.round(p.pv / 100))) ).map(function() {
+            return [ randomX(centroid[0])(), randomY(centroid[1])() ];
+          }),
+          negative: p.pv < 0
+        }
       });
-    }
-    
-    function fetchRemote(url, callback) {
-
-      JSONP.get(url, function(citiesPV) {
-        var tmp = [];
-        
-        citiesCentroids.forEach(function(centroid, index, centroids) {
-          var cityCentroidPV = citiesPV[index];
-
-          tmp.push({
-            city: cityCentroidPV.city,
-            points: d3.range(pvScale(Math.abs(cityCentroidPV.pv))).map(function() {
-              return [ randomX(centroid[0])(), randomY(centroid[1])() ];
-            }),
-            negative: cityCentroidPV.pv < 0
-          }); 
-        });  
-
-        // Mock Deviation Data
-        initial || (function() {
-          tmp = [];
-          citiesCentroids.forEach(function(centroid, index, centroids) {
-            var cityCentroidPV = citiesPV[index];
-            cityCentroidPV.pv = Math.round(cityCentroidPV.pv / (2 + Math.random() * 8));
-            cityCentroidPV.pv = Math.random() > .5 ? cityCentroidPV.pv : -cityCentroidPV.pv;
-
-            tmp.push({
-              city: cityCentroidPV.city,
-              points: d3.range(pvScale(Math.abs(cityCentroidPV.pv))).map(function() {
-                return [ randomX(centroid[0])(), randomY(centroid[1])() ];
-              }),
-              negative: cityCentroidPV.pv < 0
-            }); 
-          }); 
-        }());
-
-        callback && callback(meanPoints = tmp); 
-      });
-    }
-
-    function fetchRealtimePV(collection) {
-      console.log(collection);
     }
 
     var centered;
